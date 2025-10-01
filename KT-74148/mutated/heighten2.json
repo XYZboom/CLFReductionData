@@ -53,10 +53,12 @@
           "name": "T"
         }
       ],
-      "implementedTypes": {
-        "@type": "IrSimpleClassifier",
-        "classDecl": "I0"
-      }
+      "implementedTypes": [
+        {
+          "@type": "IrSimpleClassifier",
+          "classDecl": "I0"
+        }
+      ]
     },
     {
       "name": "A1",

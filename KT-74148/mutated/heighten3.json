@@ -96,22 +96,24 @@
           "name": "T1"
         }
       ],
-      "implementedTypes": {
-        "@type": "IrParameterizedClassifier",
-        "classDecl": "I0",
-        "arguments": {
-          "T0": [
-            {
-              "@type": "IrTypeParameter",
-              "name": "T0"
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T1"
-            }
-          ]
+      "implementedTypes": [
+        {
+          "@type": "IrParameterizedClassifier",
+          "classDecl": "I0",
+          "arguments": {
+            "T0": [
+              {
+                "@type": "IrTypeParameter",
+                "name": "T0"
+              },
+              {
+                "@type": "IrTypeParameter",
+                "name": "T1"
+              }
+            ]
+          }
         }
-      },
+      ],
       "allSuperTypeArguments": {
         "T0": [
           {
