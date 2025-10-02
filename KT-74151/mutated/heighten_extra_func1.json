@@ -55,6 +55,9 @@
         {
           "name": "func",
           "isOverride": true,
+          "override": [
+            "I2"
+          ],
           "parameterList": [
             {
               "name": "arg0",
