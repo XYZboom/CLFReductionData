@@ -261,7 +261,7 @@
           "classDecl": "I0"
         }
       ],
-      "allSuperArguments": {
+      "allSuperTypeArguments": {
         "T1": [
           {
             "@type": "IrTypeParameter",

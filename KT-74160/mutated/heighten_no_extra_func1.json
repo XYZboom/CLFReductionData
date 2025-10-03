@@ -119,7 +119,7 @@
         "@type": "IrSimpleClassifier",
         "classDecl": "A0"
       },
-      "allSuperArguments": {
+      "allSuperTypeArguments": {
         "T": [
           {
             "@type": "IrTypeParameter",
@@ -181,7 +181,7 @@
         "@type": "IrSimpleClassifier",
         "classDecl": "A1"
       },
-      "allSuperArguments": {
+      "allSuperTypeArguments": {
         "T": [
           {
             "@type": "IrTypeParameter",
