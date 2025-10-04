@@ -6,7 +6,7 @@
       "language": "JAVA",
       "functions": [
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -27,7 +27,7 @@
           ],
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -47,7 +47,7 @@
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "parameterList": [
             {
               "name": "ioJK2rH",
@@ -80,8 +80,7 @@
           }
         },
         {
-          "name": "vYNPbF9",
-          
+          "name": "func2",
           "parameterList": [
             {
               "name": "xY11m",
@@ -100,207 +99,91 @@
       "classKind": "INTERFACE"
     },
     {
-      "name": "I1",
-      "language": "JAVA",
-      "functions": [
-        {
-          "name": "kxEuXj6B",
-          "body": {},
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "w4ayoJT",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "bCKX",
-          "body": {},
-          "isFinal": true,
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
-          }
-        },
-        {
-          "name": "oZmKlv7N",
-          "typeParameters": [
-            {
-              "@type": "IrTypeParameter",
-              "name": "T0"
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T1",
-              "upperbound": {
-                "@type": "IrTypeParameter",
-                "name": "T0"
-              }
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T2"
-            }
-          ],
-          
-          "body": {},
-          "isOverride": true,
-          "override": [
-            "I0"
-          ],
-          "parameterList": [
-            {
-              "name": "m6w",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrTypeParameter",
-                  "name": "T1",
-                  "upperbound": {
-                    "@type": "IrTypeParameter",
-                    "name": "T0"
-                  }
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "pVwb",
-          "body": {},
-          "isOverride": true,
-          "override": [
-            "I0"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "ioJK2rH",
-              "type": {
-                "@type": "IrBuiltInType",
-                "@name": "IrAny"
-              }
-            },
-            {
-              "name": "yUqMJAgQ",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I0"
-              }
-            },
-            {
-              "name": "v70za8",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrSimpleClassifier",
-                  "classDecl": "I0"
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "vYNPbF9",
-          
-          "body": {},
-          "isOverride": true,
-          "override": [
-            "I0"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "xY11m",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I0"
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrBuiltInType",
-            "@name": "IrAny"
-          }
-        }
-      ],
-      "classKind": "OPEN",
-      "implementedTypes": [
-        {
-          "@type": "IrSimpleClassifier",
-          "classDecl": "I0"
-        }
-      ]
-    },
-    {
       "name": "A0",
       "language": "JAVA",
       "functions": [
         {
-          "name": "mlNQi6z",
+          "name": "func3",
           "body": {},
           "isFinal": true,
           "parameterList": [
             {
-              "name": "mNR",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
-              }
-            },
-            {
-              "name": "pgAAWAoz",
+              "name": "w4ayoJT",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
-                  "@type": "IrBuiltInType",
-                  "@name": "IrAny"
+                  "@type": "IrSimpleClassifier",
+                  "classDecl": "A0"
                 }
-              }
-            },
-            {
-              "name": "x77by",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I0"
               }
             }
           ],
           "returnType": {
-            "@type": "IrNullableType",
-            "innerType": {
-              "@type": "IrSimpleClassifier",
-              "classDecl": "I0"
-            }
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
           }
         },
         {
-          "name": "pVwb",
+          "name": "func4",
+          "body": {},
+          "isFinal": true,
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "A0"
+          }
+        },
+        {
+          "name": "func",
+          "typeParameters": [
+            {
+              "@type": "IrTypeParameter",
+              "name": "T0"
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T1",
+              "upperbound": {
+                "@type": "IrTypeParameter",
+                "name": "T0"
+              }
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T2"
+            }
+          ],
           "body": {},
           "isOverride": true,
-          "isOverrideStub": true,
           "override": [
-            "I0",
-            "I1"
+            "I0"
+          ],
+          "parameterList": [
+            {
+              "name": "arg",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrTypeParameter",
+                  "name": "T1",
+                  "upperbound": {
+                    "@type": "IrTypeParameter",
+                    "name": "T0"
+                  }
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
+          }
+        },
+        {
+          "name": "func1",
+          "body": {},
+          "isOverride": true,
+          "override": [
+            "I0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -335,14 +218,11 @@
           }
         },
         {
-          "name": "vYNPbF9",
-          
+          "name": "func2",
           "body": {},
           "isOverride": true,
-          "isOverrideStub": true,
           "override": [
-            "I0",
-            "I1"
+            "I0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -358,102 +238,9 @@
             "@type": "IrBuiltInType",
             "@name": "IrAny"
           }
-        },
-        {
-          "name": "kxEuXj6B",
-          "body": {},
-          "isOverride": true,
-          "isOverrideStub": true,
-          "override": [
-            "I1"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "w4ayoJT",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "bCKX",
-          
-          "body": {},
-          "isOverride": true,
-          "isOverrideStub": true,
-          "override": [
-            "I1"
-          ],
-          "isFinal": true,
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
-          }
-        },
-        {
-          "name": "oZmKlv7N",
-          "typeParameters": [
-            {
-              "@type": "IrTypeParameter",
-              "name": "T0"
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T1",
-              "upperbound": {
-                "@type": "IrTypeParameter",
-                "name": "T0"
-              }
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T2"
-            }
-          ],
-          "body": {},
-          "isOverride": true,
-          "override": [
-            "I0",
-            "I1"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "m6w",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrTypeParameter",
-                  "name": "T1",
-                  "upperbound": {
-                    "@type": "IrTypeParameter",
-                    "name": "T0"
-                  }
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
         }
       ],
       "classKind": "OPEN",
-      "superType": {
-        "@type": "IrSimpleClassifier",
-        "classDecl": "I1"
-      },
       "implementedTypes": [
         {
           "@type": "IrSimpleClassifier",
@@ -466,97 +253,45 @@
       "language": "JAVA",
       "functions": [
         {
-          "name": "rUDY2",
+          "name": "func5",
           "body": {},
           "isFinal": true,
+          "parameterList": [
+            {
+              "name": "mNR",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "A0"
+              }
+            },
+            {
+              "name": "pgAAWAoz",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrBuiltInType",
+                  "@name": "IrAny"
+                }
+              }
+            },
+            {
+              "name": "x77by",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "I0"
+              }
+            }
+          ],
           "returnType": {
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
+              "classDecl": "I0"
             }
           }
         },
         {
-          "name": "fVFgZ",
-          
-          "body": {},
-          "parameterList": [
-            {
-              "name": "oLhc",
-              "type": {
-                "@type": "IrBuiltInType",
-                "@name": "IrAny"
-              }
-            },
-            {
-              "name": "fR8qzvF",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrSimpleClassifier",
-                  "classDecl": "A0"
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "A0"
-          }
-        },
-        {
-          "name": "oZmKlv7N",
-          "typeParameters": [
-            {
-              "@type": "IrTypeParameter",
-              "name": "T0"
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T1",
-              "upperbound": {
-                "@type": "IrTypeParameter",
-                "name": "T0"
-              }
-            },
-            {
-              "@type": "IrTypeParameter",
-              "name": "T2"
-            }
-          ],
-          
-          "body": {},
-          "isOverride": true,
-          "isOverrideStub": true,
-          "override": [
-            "I0",
-            "A0"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "m6w",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrTypeParameter",
-                  "name": "T1",
-                  "upperbound": {
-                    "@type": "IrTypeParameter",
-                    "name": "T0"
-                  }
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
@@ -597,7 +332,7 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
@@ -621,50 +356,7 @@
           }
         },
         {
-          "name": "mlNQi6z",
-          "body": {},
-          "isOverride": true,
-          "isOverrideStub": true,
-          "override": [
-            "A0"
-          ],
-          "isFinal": true,
-          "parameterList": [
-            {
-              "name": "mNR",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
-              }
-            },
-            {
-              "name": "pgAAWAoz",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrBuiltInType",
-                  "@name": "IrAny"
-                }
-              }
-            },
-            {
-              "name": "x77by",
-              "type": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I0"
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrNullableType",
-            "innerType": {
-              "@type": "IrSimpleClassifier",
-              "classDecl": "I0"
-            }
-          }
-        },
-        {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
@@ -679,7 +371,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -690,7 +382,7 @@
           }
         },
         {
-          "name": "bCKX",
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
@@ -700,11 +392,59 @@
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
+          }
+        },
+        {
+          "name": "func",
+          "typeParameters": [
+            {
+              "@type": "IrTypeParameter",
+              "name": "T0"
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T1",
+              "upperbound": {
+                "@type": "IrTypeParameter",
+                "name": "T0"
+              }
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T2"
+            }
+          ],
+          "body": {},
+          "isOverride": true,
+          "override": [
+            "I0",
+            "A0"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "arg",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrTypeParameter",
+                  "name": "T1",
+                  "upperbound": {
+                    "@type": "IrTypeParameter",
+                    "name": "T0"
+                  }
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
           }
         }
       ],
-      "classKind": "FINAL",
+      "classKind": "OPEN",
       "superType": {
         "@type": "IrSimpleClassifier",
         "classDecl": "A0"
@@ -721,7 +461,260 @@
       "language": "JAVA",
       "functions": [
         {
-          "name": "liXDdj",
+          "name": "func6",
+          "body": {},
+          "isFinal": true,
+          "returnType": {
+            "@type": "IrNullableType",
+            "innerType": {
+              "@type": "IrSimpleClassifier",
+              "classDecl": "A1"
+            }
+          }
+        },
+        {
+          "name": "fVFgZ",
+          "body": {},
+          "parameterList": [
+            {
+              "name": "oLhc",
+              "type": {
+                "@type": "IrBuiltInType",
+                "@name": "IrAny"
+              }
+            },
+            {
+              "name": "fR8qzvF",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrSimpleClassifier",
+                  "classDecl": "A1"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "A1"
+          }
+        },
+        {
+          "name": "func",
+          "typeParameters": [
+            {
+              "@type": "IrTypeParameter",
+              "name": "T0"
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T1",
+              "upperbound": {
+                "@type": "IrTypeParameter",
+                "name": "T0"
+              }
+            },
+            {
+              "@type": "IrTypeParameter",
+              "name": "T2"
+            }
+          ],
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "I0",
+            "A1"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "arg",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrTypeParameter",
+                  "name": "T1",
+                  "upperbound": {
+                    "@type": "IrTypeParameter",
+                    "name": "T0"
+                  }
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
+          }
+        },
+        {
+          "name": "func1",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "I0",
+            "A1"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "ioJK2rH",
+              "type": {
+                "@type": "IrBuiltInType",
+                "@name": "IrAny"
+              }
+            },
+            {
+              "name": "yUqMJAgQ",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "I0"
+              }
+            },
+            {
+              "name": "v70za8",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrSimpleClassifier",
+                  "classDecl": "I0"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
+          }
+        },
+        {
+          "name": "func2",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "I0",
+            "A1"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "xY11m",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "I0"
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrBuiltInType",
+            "@name": "IrAny"
+          }
+        },
+        {
+          "name": "func5",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "A1"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "mNR",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "A0"
+              }
+            },
+            {
+              "name": "pgAAWAoz",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrBuiltInType",
+                  "@name": "IrAny"
+                }
+              }
+            },
+            {
+              "name": "x77by",
+              "type": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "I0"
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrNullableType",
+            "innerType": {
+              "@type": "IrSimpleClassifier",
+              "classDecl": "I0"
+            }
+          }
+        },
+        {
+          "name": "func3",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "A1"
+          ],
+          "isFinal": true,
+          "parameterList": [
+            {
+              "name": "w4ayoJT",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrSimpleClassifier",
+                  "classDecl": "A0"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
+          }
+        },
+        {
+          "name": "func4",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "A1"
+          ],
+          "isFinal": true,
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "A0"
+          }
+        }
+      ],
+      "classKind": "FINAL",
+      "superType": {
+        "@type": "IrSimpleClassifier",
+        "classDecl": "A1"
+      },
+      "implementedTypes": [
+        {
+          "@type": "IrSimpleClassifier",
+          "classDecl": "I0"
+        }
+      ]
+    },
+    {
+      "name": "A3",
+      "language": "JAVA",
+      "functions": [
+        {
+          "name": "func7",
           "body": {},
           "parameterList": [
             {
@@ -730,7 +723,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             },
@@ -738,7 +731,7 @@
               "name": "yiOL9",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -747,7 +740,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A1"
+                  "classDecl": "A2"
                 }
               }
             }
@@ -768,7 +761,7 @@
           "body": {},
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         },
         {
@@ -782,7 +775,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             },
@@ -790,7 +783,7 @@
               "name": "z5f4Vy",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -805,12 +798,12 @@
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
+              "classDecl": "A1"
             }
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -834,12 +827,12 @@
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -859,13 +852,13 @@
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -900,13 +893,13 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -924,12 +917,12 @@
           }
         },
         {
-          "name": "mlNQi6z",
+          "name": "func5",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -937,7 +930,7 @@
               "name": "mNR",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -967,12 +960,12 @@
           }
         },
         {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -982,7 +975,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -993,18 +986,17 @@
           }
         },
         {
-          "name": "bCKX",
-          
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         }
       ],
@@ -1017,7 +1009,7 @@
       "classKind": "FINAL",
       "superType": {
         "@type": "IrSimpleClassifier",
-        "classDecl": "A0"
+        "classDecl": "A1"
       },
       "implementedTypes": [
         {
@@ -1027,18 +1019,18 @@
       ]
     },
     {
-      "name": "I2",
+      "name": "I1",
       "language": "JAVA",
       "functions": [
         {
-          "name": "p10AFUEw",
+          "name": "func8",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
               "name": "T5",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             },
             {
@@ -1050,11 +1042,10 @@
               "name": "T7",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A0"
+                "classDecl": "A1"
               }
             }
           ],
-          
           "parameterList": [
             {
               "name": "jMXP6sb",
@@ -1065,7 +1056,7 @@
                   "name": "T7",
                   "upperbound": {
                     "@type": "IrSimpleClassifier",
-                    "classDecl": "A0"
+                    "classDecl": "A1"
                   }
                 }
               }
@@ -1077,7 +1068,7 @@
                 "name": "T7",
                 "upperbound": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A0"
+                  "classDecl": "A1"
                 }
               }
             }
@@ -1088,7 +1079,7 @@
           }
         },
         {
-          "name": "pRXbwRV",
+          "name": "func9",
           "parameterList": [
             {
               "name": "iy6iTqe",
@@ -1096,7 +1087,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             },
@@ -1104,7 +1095,7 @@
               "name": "oVqRBvf",
               "type": {
                 "@type": "IrParameterizedClassifier",
-                "classDecl": "A2",
+                "classDecl": "A3",
                 "arguments": {
                   "T3": [
                     {
@@ -1124,12 +1115,12 @@
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
+              "classDecl": "A1"
             }
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -1155,7 +1146,7 @@
           ],
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -1175,8 +1166,7 @@
           }
         },
         {
-          "name": "pVwb",
-          
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "override": [
@@ -1214,7 +1204,7 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "override": [
@@ -1244,33 +1234,32 @@
       ]
     },
     {
-      "name": "A3",
+      "name": "A4",
       "language": "JAVA",
       "functions": [
         {
-          "name": "uZboA",
+          "name": "func10",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
               "name": "T8",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             }
           ],
-          
           "body": {},
           "returnType": {
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
+              "classDecl": "A1"
             }
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -1294,12 +1283,12 @@
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -1319,14 +1308,13 @@
           }
         },
         {
-          "name": "pVwb",
-          
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1361,14 +1349,13 @@
           }
         },
         {
-          "name": "vYNPbF9",
-          
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1386,12 +1373,12 @@
           }
         },
         {
-          "name": "mlNQi6z",
+          "name": "func5",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1399,7 +1386,7 @@
               "name": "mNR",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -1429,12 +1416,12 @@
           }
         },
         {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1444,7 +1431,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -1455,25 +1442,24 @@
           }
         },
         {
-          "name": "bCKX",
-          
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A0"
+            "A1"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         }
       ],
       "classKind": "OPEN",
       "superType": {
         "@type": "IrSimpleClassifier",
-        "classDecl": "A0"
+        "classDecl": "A1"
       },
       "implementedTypes": [
         {
@@ -1483,11 +1469,11 @@
       ]
     },
     {
-      "name": "I3",
+      "name": "I2",
       "language": "JAVA",
       "functions": [
         {
-          "name": "xaZqX0wO",
+          "name": "func11",
           "parameterList": [
             {
               "name": "i0pcejr",
@@ -1500,7 +1486,7 @@
               "name": "j8cIp6",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -1509,7 +1495,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I3",
+                  "classDecl": "I2",
                   "arguments": {
                     "T10": [
                       {
@@ -1568,7 +1554,7 @@
               "name": "T11",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             },
             {
@@ -1576,7 +1562,7 @@
               "name": "T12",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             },
             {
@@ -1592,7 +1578,6 @@
               }
             }
           ],
-          
           "returnType": {
             "@type": "IrNullableType",
             "innerType": {
@@ -1611,10 +1596,9 @@
         },
         {
           "name": "xiv0SvT",
-          
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         }
       ],
@@ -1635,11 +1619,11 @@
       "classKind": "INTERFACE"
     },
     {
-      "name": "A4",
+      "name": "A5",
       "language": "KOTLIN",
       "functions": [
         {
-          "name": "fKwkE0fd",
+          "name": "func12",
           "body": {},
           "isFinal": true,
           "parameterList": [
@@ -1649,7 +1633,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A3"
+                  "classDecl": "A4"
                 }
               }
             },
@@ -1657,14 +1641,14 @@
               "name": "nyq5o",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             },
             {
               "name": "z3BSyu4m",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             }
           ],
@@ -1675,14 +1659,13 @@
         },
         {
           "name": "vjAQ7",
-          
           "body": {},
           "parameterList": [
             {
               "name": "pmt",
               "type": {
                 "@type": "IrParameterizedClassifier",
-                "classDecl": "I3",
+                "classDecl": "I2",
                 "arguments": {
                   "T10": [
                     {
@@ -1695,7 +1678,7 @@
                     },
                     {
                       "@type": "IrSimpleClassifier",
-                      "classDecl": "I1"
+                      "classDecl": "A0"
                     }
                   ],
                   "T9": [
@@ -1705,7 +1688,7 @@
                     },
                     {
                       "@type": "IrSimpleClassifier",
-                      "classDecl": "I1"
+                      "classDecl": "A0"
                     }
                   ]
                 }
@@ -1715,7 +1698,7 @@
               "name": "qnBS",
               "type": {
                 "@type": "IrParameterizedClassifier",
-                "classDecl": "I3",
+                "classDecl": "I2",
                 "arguments": {
                   "T10": [
                     {
@@ -1728,7 +1711,7 @@
                     },
                     {
                       "@type": "IrSimpleClassifier",
-                      "classDecl": "I2"
+                      "classDecl": "I1"
                     }
                   ],
                   "T9": [
@@ -1738,7 +1721,7 @@
                     },
                     {
                       "@type": "IrSimpleClassifier",
-                      "classDecl": "A3"
+                      "classDecl": "A4"
                     }
                   ]
                 }
@@ -1747,7 +1730,7 @@
           ],
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A3"
+            "classDecl": "A4"
           }
         },
         {
@@ -1758,7 +1741,7 @@
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrParameterizedClassifier",
-              "classDecl": "A2",
+              "classDecl": "A3",
               "arguments": {
                 "T3": [
                   {
@@ -1767,7 +1750,7 @@
                   },
                   {
                     "@type": "IrSimpleClassifier",
-                    "classDecl": "I1"
+                    "classDecl": "A0"
                   }
                 ]
               }
@@ -1775,7 +1758,7 @@
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -1798,12 +1781,12 @@
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -1823,13 +1806,12 @@
           }
         },
         {
-          "name": "pVwb",
-          
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1864,12 +1846,12 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1887,12 +1869,12 @@
           }
         },
         {
-          "name": "mlNQi6z",
+          "name": "func5",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -1900,7 +1882,7 @@
               "name": "mNR",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -1930,17 +1912,87 @@
           }
         },
         {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
             {
               "name": "w4ayoJT",
+              "type": {
+                "@type": "IrNullableType",
+                "innerType": {
+                  "@type": "IrSimpleClassifier",
+                  "classDecl": "A0"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "I0"
+          }
+        },
+        {
+          "name": "func4",
+          "body": {},
+          "isOverride": true,
+          "isOverrideStub": true,
+          "override": [
+            "A4"
+          ],
+          "isFinal": true,
+          "returnType": {
+            "@type": "IrSimpleClassifier",
+            "classDecl": "A0"
+          }
+        },
+        {
+          "name": "func10",
+          "typeParameters": [
+            {
+              "@type": "IrTypeParameter",
+              "name": "T8",
+              "upperbound": {
+                "@type": "IrSimpleClassifier",
+                "classDecl": "A0"
+              }
+            }
+          ],
+          "body": {},
+          "isOverride": true,
+          "override": [
+            "A4"
+          ],
+          "isFinal": true,
+          "returnType": {
+            "@type": "IrNullableType",
+            "innerType": {
+              "@type": "IrSimpleClassifier",
+              "classDecl": "A1"
+            }
+          }
+        }
+      ],
+      "classKind": "OPEN",
+      "superType": {
+        "@type": "IrSimpleClassifier",
+        "classDecl": "A4"
+      }
+    },
+    {
+      "name": "A6",
+      "language": "KOTLIN",
+      "functions": [
+        {
+          "name": "func13",
+          "parameterList": [
+            {
+              "name": "bgw630o",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -1952,78 +2004,7 @@
           ],
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I0"
-          }
-        },
-        {
-          "name": "bCKX",
-          
-          "body": {},
-          "isOverride": true,
-          "isOverrideStub": true,
-          "override": [
-            "A3"
-          ],
-          "isFinal": true,
-          "returnType": {
-            "@type": "IrSimpleClassifier",
             "classDecl": "I1"
-          }
-        },
-        {
-          "name": "uZboA",
-          "typeParameters": [
-            {
-              "@type": "IrTypeParameter",
-              "name": "T8",
-              "upperbound": {
-                "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
-              }
-            }
-          ],
-          "body": {},
-          "isOverride": true,
-          "override": [
-            "A3"
-          ],
-          "isFinal": true,
-          "returnType": {
-            "@type": "IrNullableType",
-            "innerType": {
-              "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
-            }
-          }
-        }
-      ],
-      "classKind": "OPEN",
-      "superType": {
-        "@type": "IrSimpleClassifier",
-        "classDecl": "A3"
-      }
-    },
-    {
-      "name": "A5",
-      "language": "KOTLIN",
-      "functions": [
-        {
-          "name": "v3ci",
-          "parameterList": [
-            {
-              "name": "bgw630o",
-              "type": {
-                "@type": "IrNullableType",
-                "innerType": {
-                  "@type": "IrSimpleClassifier",
-                  "classDecl": "I2"
-                }
-              }
-            }
-          ],
-          "returnType": {
-            "@type": "IrSimpleClassifier",
-            "classDecl": "I2"
           }
         },
         {
@@ -2034,14 +2015,14 @@
               "name": "uYaZ9",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A0"
+                "classDecl": "A1"
               }
             },
             {
               "name": "zoTGJA",
               "type": {
                 "@type": "IrParameterizedClassifier",
-                "classDecl": "A5",
+                "classDecl": "A6",
                 "arguments": {
                   "T14": [
                     {
@@ -2049,7 +2030,7 @@
                       "name": "T14",
                       "upperbound": {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     },
                     {
@@ -2057,7 +2038,7 @@
                       "name": "T14",
                       "upperbound": {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     }
                   ],
@@ -2070,7 +2051,7 @@
                         "name": "T14",
                         "upperbound": {
                           "@type": "IrSimpleClassifier",
-                          "classDecl": "A1"
+                          "classDecl": "A2"
                         }
                       }
                     },
@@ -2079,7 +2060,7 @@
                       "name": "T14",
                       "upperbound": {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     }
                   ]
@@ -2092,7 +2073,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I2"
+                  "classDecl": "I1"
                 }
               }
             }
@@ -2102,7 +2083,7 @@
             "name": "T14",
             "upperbound": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A1"
+              "classDecl": "A2"
             }
           }
         },
@@ -2110,16 +2091,15 @@
           "name": "vDnrZVK9",
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I2"
+            "classDecl": "I1"
           }
         },
         {
-          "name": "xaZqX0wO",
-          
+          "name": "func11",
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "parameterList": [
             {
@@ -2133,7 +2113,7 @@
               "name": "j8cIp6",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -2142,7 +2122,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I3",
+                  "classDecl": "I2",
                   "arguments": {
                     "T10": [
                       {
@@ -2193,7 +2173,7 @@
               "name": "T11",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             },
             {
@@ -2201,7 +2181,7 @@
               "name": "T12",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             },
             {
@@ -2217,11 +2197,10 @@
               }
             }
           ],
-          
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "isFinal": true,
           "returnType": {
@@ -2245,21 +2224,21 @@
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2294,14 +2273,13 @@
           }
         },
         {
-          "name": "vYNPbF9",
-          
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2319,13 +2297,12 @@
           }
         },
         {
-          "name": "kxEuXj6B",
-          
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2335,7 +2312,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -2346,22 +2323,21 @@
           }
         },
         {
-          "name": "bCKX",
-          
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -2380,17 +2356,16 @@
               "name": "T2"
             }
           ],
-          
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "I1"
+            "A0"
           ],
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -2416,7 +2391,7 @@
           "name": "T14",
           "upperbound": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         },
         {
@@ -2427,7 +2402,7 @@
             "name": "T14",
             "upperbound": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A1"
+              "classDecl": "A2"
             }
           }
         }
@@ -2435,7 +2410,7 @@
       "classKind": "ABSTRACT",
       "superType": {
         "@type": "IrSimpleClassifier",
-        "classDecl": "I1"
+        "classDecl": "A0"
       },
       "allSuperTypeArguments": {
         "T10": [
@@ -2470,7 +2445,7 @@
         },
         {
           "@type": "IrParameterizedClassifier",
-          "classDecl": "I3",
+          "classDecl": "I2",
           "arguments": {
             "T10": [
               {
@@ -2501,11 +2476,11 @@
       ]
     },
     {
-      "name": "A6",
+      "name": "A7",
       "language": "JAVA",
       "functions": [
         {
-          "name": "xgp34TJj",
+          "name": "func14",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -2520,11 +2495,11 @@
           }
         },
         {
-          "name": "xaZqX0wO",
+          "name": "func11",
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2539,7 +2514,7 @@
               "name": "j8cIp6",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -2548,7 +2523,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I3",
+                  "classDecl": "I2",
                   "arguments": {
                     "T10": [
                       {
@@ -2561,7 +2536,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A3"
+                        "classDecl": "A4"
                       }
                     ],
                     "T9": [
@@ -2571,7 +2546,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A3"
+                        "classDecl": "A4"
                       }
                     ]
                   }
@@ -2599,7 +2574,7 @@
               "name": "T11",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             },
             {
@@ -2607,7 +2582,7 @@
               "name": "T12",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             },
             {
@@ -2623,11 +2598,10 @@
               }
             }
           ],
-          
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "returnType": {
             "@type": "IrNullableType",
@@ -2650,21 +2624,21 @@
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         },
         {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2674,7 +2648,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -2685,27 +2659,26 @@
           }
         },
         {
-          "name": "bCKX",
-          
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2740,12 +2713,12 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "isFinal": true,
           "parameterList": [
@@ -2763,7 +2736,7 @@
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -2782,14 +2755,13 @@
               "name": "T2"
             }
           ],
-          
           "isOverride": true,
           "override": [
-            "I1"
+            "A0"
           ],
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -2812,7 +2784,7 @@
       "classKind": "ABSTRACT",
       "superType": {
         "@type": "IrSimpleClassifier",
-        "classDecl": "I1"
+        "classDecl": "A0"
       },
       "allSuperTypeArguments": {
         "T10": [
@@ -2826,7 +2798,7 @@
           },
           {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A3"
+            "classDecl": "A4"
           }
         ],
         "T9": [
@@ -2843,7 +2815,7 @@
       "implementedTypes": [
         {
           "@type": "IrParameterizedClassifier",
-          "classDecl": "I3",
+          "classDecl": "I2",
           "arguments": {
             "T10": [
               {
@@ -2856,7 +2828,7 @@
               },
               {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             ],
             "T9": [
@@ -2874,12 +2846,11 @@
       ]
     },
     {
-      "name": "I4",
+      "name": "I3",
       "language": "JAVA",
       "functions": [
         {
-          "name": "tSm",
-          
+          "name": "func15",
           "parameterList": [
             {
               "name": "vALG",
@@ -2887,7 +2858,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I2"
+                  "classDecl": "I1"
                 }
               }
             },
@@ -2895,13 +2866,13 @@
               "name": "bA0qCF0v",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A4"
+                "classDecl": "A5"
               }
             }
           ],
           "returnType": {
             "@type": "IrParameterizedClassifier",
-            "classDecl": "I4",
+            "classDecl": "I3",
             "arguments": {
               "T17": [
                 {
@@ -2909,12 +2880,12 @@
                   "name": "T17",
                   "upperbound": {
                     "@type": "IrSimpleClassifier",
-                    "classDecl": "A1"
+                    "classDecl": "A2"
                   }
                 },
                 {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A1"
+                  "classDecl": "A2"
                 }
               ]
             }
@@ -2928,7 +2899,7 @@
               "name": "T18",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -2936,7 +2907,7 @@
               "name": "T19",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -2944,11 +2915,10 @@
               "name": "T20",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             }
           ],
-          
           "parameterList": [
             {
               "name": "a3QJrCGP",
@@ -2956,7 +2926,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I3",
+                  "classDecl": "I2",
                   "arguments": {
                     "T10": [
                       {
@@ -2969,7 +2939,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ],
                     "T9": [
@@ -2992,7 +2962,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A6"
+                  "classDecl": "A7"
                 }
               }
             },
@@ -3003,7 +2973,7 @@
                 "name": "T18",
                 "upperbound": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -3012,12 +2982,12 @@
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A6"
+              "classDecl": "A7"
             }
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -3043,7 +3013,7 @@
           ],
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -3063,7 +3033,7 @@
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "override": [
@@ -3101,7 +3071,7 @@
           }
         },
         {
-          "name": "vYNPbF9",
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "override": [
@@ -3128,7 +3098,7 @@
           "name": "T17",
           "upperbound": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         }
       ],
@@ -3141,11 +3111,11 @@
       ]
     },
     {
-      "name": "A7",
+      "name": "A8",
       "language": "KOTLIN",
       "functions": [
         {
-          "name": "otXB2as",
+          "name": "func16",
           "parameterList": [
             {
               "name": "aG8",
@@ -3153,7 +3123,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "A5",
+                  "classDecl": "A6",
                   "arguments": {
                     "T14": [
                       {
@@ -3161,12 +3131,12 @@
                         "name": "T14",
                         "upperbound": {
                           "@type": "IrSimpleClassifier",
-                          "classDecl": "A1"
+                          "classDecl": "A2"
                         }
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ],
                     "T15": [
@@ -3178,13 +3148,13 @@
                           "name": "T14",
                           "upperbound": {
                             "@type": "IrSimpleClassifier",
-                            "classDecl": "A1"
+                            "classDecl": "A2"
                           }
                         }
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ]
                   }
@@ -3197,7 +3167,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I2"
+                  "classDecl": "I1"
                 }
               }
             },
@@ -3207,7 +3177,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A3"
+                  "classDecl": "A4"
                 }
               }
             }
@@ -3219,7 +3189,6 @@
         },
         {
           "name": "oWbJ",
-          
           "body": {},
           "isFinal": true,
           "parameterList": [
@@ -3229,7 +3198,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "A4"
+                  "classDecl": "A5"
                 }
               }
             },
@@ -3239,7 +3208,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "A2",
+                  "classDecl": "A3",
                   "arguments": {
                     "T3": [
                       {
@@ -3248,7 +3217,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "I2"
+                        "classDecl": "I1"
                       }
                     ]
                   }
@@ -3258,7 +3227,7 @@
           ],
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A7"
+            "classDecl": "A8"
           }
         },
         {
@@ -3270,7 +3239,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "A5",
+                  "classDecl": "A6",
                   "arguments": {
                     "T14": [
                       {
@@ -3278,12 +3247,12 @@
                         "name": "T14",
                         "upperbound": {
                           "@type": "IrSimpleClassifier",
-                          "classDecl": "A1"
+                          "classDecl": "A2"
                         }
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ],
                     "T15": [
@@ -3295,13 +3264,13 @@
                           "name": "T14",
                           "upperbound": {
                             "@type": "IrSimpleClassifier",
-                            "classDecl": "A1"
+                            "classDecl": "A2"
                           }
                         }
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ]
                   }
@@ -3314,7 +3283,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "A2",
+                  "classDecl": "A3",
                   "arguments": {
                     "T3": [
                       {
@@ -3323,7 +3292,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A3"
+                        "classDecl": "A4"
                       }
                     ]
                   }
@@ -3336,7 +3305,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I4",
+                  "classDecl": "I3",
                   "arguments": {
                     "T17": [
                       {
@@ -3344,12 +3313,12 @@
                         "name": "T17",
                         "upperbound": {
                           "@type": "IrSimpleClassifier",
-                          "classDecl": "A1"
+                          "classDecl": "A2"
                         }
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "A1"
+                        "classDecl": "A2"
                       }
                     ]
                   }
@@ -3363,11 +3332,11 @@
           }
         },
         {
-          "name": "xaZqX0wO",
+          "name": "func11",
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "parameterList": [
             {
@@ -3381,7 +3350,7 @@
               "name": "j8cIp6",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A1"
+                "classDecl": "A2"
               }
             },
             {
@@ -3390,7 +3359,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrParameterizedClassifier",
-                  "classDecl": "I3",
+                  "classDecl": "I2",
                   "arguments": {
                     "T10": [
                       {
@@ -3403,7 +3372,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "I2"
+                        "classDecl": "I1"
                       }
                     ],
                     "T9": [
@@ -3413,7 +3382,7 @@
                       },
                       {
                         "@type": "IrSimpleClassifier",
-                        "classDecl": "I2"
+                        "classDecl": "I1"
                       }
                     ]
                   }
@@ -3441,7 +3410,7 @@
               "name": "T11",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "A3"
+                "classDecl": "A4"
               }
             },
             {
@@ -3449,7 +3418,7 @@
               "name": "T12",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             },
             {
@@ -3468,7 +3437,7 @@
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "returnType": {
             "@type": "IrNullableType",
@@ -3491,16 +3460,16 @@
           "body": {},
           "isOverride": true,
           "override": [
-            "I3"
+            "I2"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "A1"
+            "classDecl": "A2"
           }
         },
         {
-          "name": "oZmKlv7N",
+          "name": "func",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
@@ -3524,12 +3493,12 @@
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
             {
-              "name": "m6w",
+              "name": "arg",
               "type": {
                 "@type": "IrNullableType",
                 "innerType": {
@@ -3549,13 +3518,13 @@
           }
         },
         {
-          "name": "pVwb",
+          "name": "func1",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -3590,14 +3559,13 @@
           }
         },
         {
-          "name": "vYNPbF9",
-          
+          "name": "func2",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
             "I0",
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -3615,12 +3583,12 @@
           }
         },
         {
-          "name": "mlNQi6z",
+          "name": "func5",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -3628,7 +3596,7 @@
               "name": "mNR",
               "type": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             },
             {
@@ -3658,12 +3626,12 @@
           }
         },
         {
-          "name": "kxEuXj6B",
+          "name": "func3",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "parameterList": [
@@ -3673,7 +3641,7 @@
                 "@type": "IrNullableType",
                 "innerType": {
                   "@type": "IrSimpleClassifier",
-                  "classDecl": "I1"
+                  "classDecl": "A0"
                 }
               }
             }
@@ -3684,29 +3652,28 @@
           }
         },
         {
-          "name": "bCKX",
-          
+          "name": "func4",
           "body": {},
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "isFinal": true,
           "returnType": {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I1"
+            "classDecl": "A0"
           }
         },
         {
-          "name": "uZboA",
+          "name": "func10",
           "typeParameters": [
             {
               "@type": "IrTypeParameter",
               "name": "T8",
               "upperbound": {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I1"
+                "classDecl": "A0"
               }
             }
           ],
@@ -3714,13 +3681,13 @@
           "isOverride": true,
           "isOverrideStub": true,
           "override": [
-            "A3"
+            "A4"
           ],
           "returnType": {
             "@type": "IrNullableType",
             "innerType": {
               "@type": "IrSimpleClassifier",
-              "classDecl": "A0"
+              "classDecl": "A1"
             }
           }
         }
@@ -3728,7 +3695,7 @@
       "classKind": "ABSTRACT",
       "superType": {
         "@type": "IrSimpleClassifier",
-        "classDecl": "A3"
+        "classDecl": "A4"
       },
       "allSuperTypeArguments": {
         "T10": [
@@ -3742,7 +3709,7 @@
           },
           {
             "@type": "IrSimpleClassifier",
-            "classDecl": "I2"
+            "classDecl": "I1"
           }
         ],
         "T9": [
@@ -3763,7 +3730,7 @@
         },
         {
           "@type": "IrParameterizedClassifier",
-          "classDecl": "I3",
+          "classDecl": "I2",
           "arguments": {
             "T10": [
               {
@@ -3776,7 +3743,7 @@
               },
               {
                 "@type": "IrSimpleClassifier",
-                "classDecl": "I2"
+                "classDecl": "I1"
               }
             ],
             "T9": [
